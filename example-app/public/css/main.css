@@ -1,0 +1,816 @@
+/* General styles */
+.textColorWhite{
+    color:aliceblue;
+}
+
+body{
+    font-family: 'Crimson Text', serif !important;
+}
+
+main{
+    display:block !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+    border: 1px solid #8064A2 !important;
+    border-radius: 0 0 0 0 !important;
+    
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    border-radius: 0 0 0 0 !important;
+    
+}
+
+.container-fluid{
+    width: 100% !important;
+}
+
+.btn-outline-warning:hover{
+    color: white !important;
+}
+
+/* One block styles */
+
+.blockOneleft{
+    background-color: #2A254B;
+    margin-right: -2%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.textBlockOneLeftTop{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 35px !important;
+}
+
+.textBlockOneLeftBot{
+    margin-top: 45%;
+    font-size: 16px !important;
+}
+
+
+/* Buttons classes */
+
+.btnMiddle{
+    background-color: #4a4a85 !important;
+    color: white !important;
+    border-radius: 0 0 0 0 !important;
+    height: 45px !important;
+}
+
+.btn{
+    width: 250px !important;
+}
+
+.btnMiddleTwo{
+    width: 150px !important;
+    height: 50px !important
+}
+
+.cartBtnMin{
+    margin-right: -11% !important;
+}
+
+.cartBtnMin a{
+    width: 40px !important; 
+    height: 40px !important;
+}
+
+.cartBtnMax{
+    margin-left: -8% !important;
+}
+
+.cartBtnMax a{
+    width: 40px !important; 
+    height: 40px !important;
+}
+
+.cartDeleteBtn{
+    width:90px !important;
+}
+
+.addToCart{
+    display: block;
+}
+
+
+/* Images classes */
+img{
+    height: 600px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.imgCartList{
+    margin-left: 1% !important;
+}
+
+.imgCartList img{
+    width: 55px !important; 
+    height: 55px !important;
+}
+
+.icons{
+    width: 40px !important;
+    height: 40px !important;
+    margin-bottom: 1%;
+}
+
+/* Two block one inside the other */
+
+.innerBlock{
+    background-color:#F9F9F9 !important;
+    padding: 3% !important;
+}
+
+.outerBlock{
+    background-color:rgb(255, 255, 255) !important;
+    padding: 3% !important;
+}
+
+/* Registration form v.1 */
+.btnReg1{
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    background-color: #2A254B !important;
+    color: #FFFFFF !important;
+    margin-left: -12% !important;
+}
+
+.inputReg1{
+    width: 300px !important;
+    height: 50px !important;
+    background-color: #F9F9F9 !important;
+    padding-left: 4% !important;
+    border: none !important;
+}
+
+/* Cart classes */
+
+.cartHeader{
+    position:relative !important; 
+    margin-top:2% !important;
+}
+
+.badgeRed{
+    width: 25px !important;
+    height: 25px !important;
+    background-color:rgb(204, 73, 73) !important;
+    color:white !important; 
+    border: 1px solid rgb(204, 73, 73)  !important; 
+    border-radius: 50px !important;
+    font-size: 10px !important;
+    padding-left: 4px !important;
+    padding-top: 3px !important;
+    position:absolute !important;
+    top:-14px !important;
+    left:106px !important;
+}
+
+.leftOuterBlock{
+    min-height: 100% !important;
+}
+
+.leftInnerBlock{
+    height:100% !important; 
+    background-color:white !important; 
+    padding-top:2% !important;
+}
+
+.productListBasicAddStyles{
+    margin-left: -5% !important; 
+    width:105% !important; 
+    height: 25% !important; 
+    padding-top:2% !important; 
+    padding-top:3% !important; 
+    background-color:white !important;
+}
+
+.inpСounter{
+    border: 1px solid black !important;
+    width: 50px !important;
+    height: 40px !important;
+    border-radius: 0 !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    padding-left: 30% !important;
+    padding-top: 8.5% !important;
+}
+
+.cartDelete{
+    margin-left: -11% !important;
+}
+
+.cartLine{
+    width: 104.5% !important; 
+    margin-left: -4.5% !important;
+}
+
+.rightOuterBlock{
+    background-color: white !important; 
+    padding-left: 4% !important; 
+    height: 200px !important;
+}
+
+.rightOuterBlock a{
+    margin-left: 3% !important;
+}
+
+.cartFont{
+    font-weight: 800; 
+    color:black;
+}
+
+.cartColorOne{
+    color:grey;
+    font-size:16px;
+}
+
+.cartColorTwo{
+    color:#4a4a85 ;
+    font-size:20px;
+    font-weight:800;
+}
+
+.cartBlockTotalOne{
+    margin-top: 6% !important;
+}
+
+/* Map styles */
+.maps{
+    width: 500px !important;
+    height: 500px !important;
+    background-color: rgb(148, 29, 29) !important;
+    padding: 50px !important;
+}
+
+#cart_left{
+    margin-top: 10px !important;
+}
+
+
+/* Submenu */
+
+.submenu{
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    padding-left: 7% !important;
+}
+
+.subtext{
+    display:inline !important;
+    margin-left: 5% !important;
+    color: #8064A2 !important;
+    text-decoration: none;
+}
+
+
+/* Footer styles */
+
+.footerColor{
+    background-color: #2A254B;    
+}
+
+.linkFooter{
+    display: block;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 200 !important;
+}
+
+.footerLine{
+    color: #4E4D93;
+    margin-top: 1% !important;
+}
+
+/* RegformFooter */
+.regInput{
+    width: 300px !important;
+    height: 50px !important;
+    background-color: #F9F9F9 !important;
+    padding-left: 4% !important;
+    border: none !important;
+}
+
+/* .regInput2{
+    width: 400px !important;
+    height: 50px !important;
+    background-color: #4E4D93 !important;
+    padding-left: 4% !important;
+    border: none !important;
+} */
+
+.regInput::placeholder {
+    color: #cecae2 !important;
+}
+
+/* .regInput2::placeholder {
+    color: #ffffff !important;
+} */
+
+.signUp{
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    background-color: #2A254B !important;
+    color: #FFFFFF !important;
+    margin-left: -12% !important;
+}
+
+/* .signUp2{
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    background-color: #ffffff !important;
+    color: #2A254B !important;
+    margin-left: -13% !important;
+} */
+
+
+/* Adaptive */
+
+/* Home page */
+@media screen and (min-width:768px) and (max-width:1600px) {
+    .addToCart{
+        width: 130px !important;
+    }
+
+    .footerHide{
+        display: none !important;
+    }
+
+    .innerBlock{
+        display: none !important;
+    }
+
+    .blockOneHide, .blockOneHide2, .blockOneHide3{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:4500px) {
+  
+    .blockOneHide2, .btnMiddle{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:563px) and (max-width:999px) {
+
+    .xblock{
+        display: none !important;
+    }
+}
+@media screen and (min-width:563px) and (max-width:767px) {
+
+    .xblock{
+        display: none !important;
+    }
+    .addToCart{
+        width: 130px !important;
+    }
+
+    .footerHide{
+        display: none !important;
+    }
+
+    .innerBlock{
+        display: none !important;
+    }
+
+    .contHide{
+        display: none !important;
+    }
+
+    .blockOneHide{
+        background-color: #2A254B;
+        padding-top: 2% !important;
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+    }
+
+    .blockOneHide h1{
+        margin-bottom: 10% !important;
+    }
+
+    .blockOneHide h6{
+        margin-bottom: 5% !important;
+    }
+
+    .blockOneHide button{
+        margin-bottom: 5% !important;
+        width: 100% !important;
+    }
+
+    .blockOneHide2{
+        padding-top: 3% !important;
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+    }
+
+    .blockOneHide2 h1{
+        margin-bottom: 10% !important;
+    }
+
+    .blockOneHide2 h6{
+        margin-bottom: 5% !important;
+    }
+
+    .blockOneHide2 button{
+        margin-bottom: 5% !important;
+        width: 100% !important;
+    }
+    .submenu{
+        display: none !important;
+    }
+
+    .blockLittleHide{
+        display: none !important;
+    }
+}
+
+/* Cart page */
+
+/* Right Block */
+@media screen and (min-width:993px) and (max-width:1400px) {
+    .blockBigHide{
+        display: none !important;
+    }
+
+    .blockLittleHide{
+        display: block !important;
+    }
+
+    .cartColorTwo{
+        padding-left: 8% !important;
+    }
+
+    .cartBlockTotalOne{
+        padding-top: 4% !important;
+    }
+}
+
+/* Left block */
+@media screen and (min-width:993px) and (max-width:1198px) {
+    .cartListTitle{
+        padding-left: 8% !important;
+    }
+
+    .cartBtnMin{
+        margin-left: -10% !important;
+        position: relative !important;
+    }
+
+    .cartBtnMin a{
+        width: 30px !important; 
+        height: 30px !important;
+    }
+
+    .cartBtnMinSpan{
+        position: absolute !important;
+        top: 3% !important;
+        left: 35% !important;
+    }
+    
+    .cartBtnMax{
+        margin-left: -10% !important;
+    }
+    
+    .cartBtnMax a{
+        width: 30px !important; 
+        height: 30px !important;
+        position: relative !important;
+    }
+    
+    .cartDeleteBtn{
+        margin-left:25% !important;
+        width:70px !important;
+        height: 30px !important;
+        position: relative !important;
+    }
+
+    .cartDeleteBtn span{
+        position: absolute !important;
+        left: 25% !important;
+        top: 10% !important
+    }
+
+    .cartBtnMaxSpan{
+        position: absolute !important;
+        left: 38% !important;
+        top: 10% !important;
+        /* left: 35% !important; */
+    }
+
+    .inpСounter{
+        width: 30px !important;
+        height: 30px !important;
+        /* margin-left: 11% !important;
+        margin-right: 2% !important; */
+        padding-left: 24% !important;
+        /* padding-top: 9% !important; */
+    }
+    
+
+}
+
+/* Little page styles */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .cartBtnMin{
+        margin-right: -12% !important;
+    }
+    
+    .cartBtnMin a{
+        width: 40px !important; 
+        height: 40px !important;
+    }
+    
+    .cartBtnMax{
+        margin-left: -7% !important;
+    }
+    
+    .cartBtnMax a{
+        width: 40px !important; 
+        height: 40px !important;
+        position: relative;
+    }
+    
+    .cartDeleteBtn{
+        position:relative;
+        margin-left:25% !important;
+        width:90px !important;
+        height: 40px !important;
+    }
+
+    .inpСounter{
+        width: 43px !important;
+        height: 40px !important;
+        margin-left: 11% !important;
+        margin-right: 2% !important;
+        padding-left: 30% !important;
+        padding-top: 14% !important;
+    }
+    
+    .cartDeleteBtn span{
+        position: absolute !important;
+        left: 30% !important;
+        top: 20% !important;
+        /* left: 0 !important; */
+        /* top: 0 !important; */
+    }
+
+    .cartBtnMaxSpan{
+        position: absolute !important;
+        left: 38% !important;
+        top: 16% !important;
+        left: 35% !important;
+    }
+    .blockBigHide{
+        display: block !important;
+    }
+
+    .blockLittleHide{
+        display: none !important;
+    }
+
+    .cartColorOne{
+        margin-top: -5% !important;
+    }
+
+    .cartColorTwo{
+        margin-top: 5% !important;
+    }
+
+    .leftOuterBlock{
+        width: 100% !important;
+    }
+
+    .productListBasicAddStyles{
+        margin-left: 0 !important; 
+    width:100% !important; 
+    height: 25% !important; 
+    padding-top:2% !important; 
+    padding-top:3% !important; 
+    }
+
+    .cartLine{
+        width: 103.8% !important; 
+    margin-left: -3.8% !important;
+    }
+
+    .btnCartInBlockLittleSize{
+        height: 39px !important; 
+        margin-top: 4% !important; 
+        margin-left: 3% !important;
+    }
+
+    .cartHeader{
+        margin-top: 5% !important;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:767px) {
+    .cartBtnMin{
+        margin-right: -10% !important;
+        margin-left: -10% !important;
+    }
+    
+    .cartBtnMin a{
+        position: relative;
+        width: 30px !important; 
+        height: 30px !important;
+    }
+    
+    .cartBtnMax{
+        margin-left: -7% !important;
+    }
+    
+    .cartBtnMax a{
+        position: relative;
+        width: 30px !important; 
+        height: 30px !important;
+    }
+    
+    .cartDeleteBtn{
+        position: relative;
+        margin-left:25% !important;
+        width:90px !important;
+        height: 30px !important;
+    }
+
+    .inpСounter{
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 11% !important;
+        margin-right: 2% !important;
+        padding-left: 37% !important;
+        padding-top: 9% !important;
+    }
+    
+    .blockBigHide{
+        display: block !important;
+    }
+
+    .blockLittleHide{
+        display: none !important;
+    }
+
+    .cartColorOne{
+        margin-top: -5% !important;
+    }
+
+    .cartColorTwo{
+        margin-top: 5% !important;
+    }
+
+    .leftOuterBlock{
+        width: 100% !important;
+    }
+
+    .productListBasicAddStyles{
+        margin-left: 0 !important; 
+    width:100% !important; 
+    height: 25% !important; 
+    padding-top:2% !important; 
+    padding-top:3% !important; 
+    }
+
+    .cartLine{
+        width: 103.8% !important; 
+    margin-left: -3.8% !important;
+    }
+
+    .btnCartInBlockLittleSize{
+        height: 39px !important; 
+        margin-top: 4% !important; 
+        margin-left: 3% !important;
+    }
+
+    .cartHeader{
+        margin-top: 5% !important;
+    }
+    
+    .cartListTitle{
+        margin-left: 4% !important;
+    }
+
+    .imgCartList{
+        margin-left: -5% !important;
+    }
+    
+    .cartDeleteBtn span{
+        position: absolute !important;
+        left: 30% !important;
+        top: 17% !important;
+        /* left: 0 !important; */
+        /* top: 0 !important; */
+    }
+
+    .cartBtnMaxSpan{
+        position: absolute !important;
+        left: 38% !important;
+        top: 16% !important;
+        left: 35% !important;
+    }
+
+    .cartBtnMinSpan{
+        position: absolute !important;
+        left: 38% !important;
+        top: 12% !important;
+        left: 35% !important;
+    }
+
+    .btnCartInBlockLittleSize{
+        width: 180px !important;
+        /* height: 39px !important; 
+        margin-top: 4% !important; 
+        margin-left: 3% !important; */
+    }
+}
+
+/* Maps styles */
+@media screen and (min-width:1000px) and (max-width:1199px) {
+    .blockLittleHide5{
+        display: none !important;
+    }
+
+    .blockBigHide5{
+        display: block !important;
+    }
+
+    /* .mapClass{
+        padding-left: 24% !important;
+    } */
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .blockLittleHide5{
+        display: block !important;
+    }
+
+    .blockBigHide5{
+        display: none !important;
+    }
+
+    /* .mapClass{
+        padding-left: 24% !important;
+    } */
+}
+
+@media screen and (min-width:400px) and (max-width:999px) {
+    .mapClass{
+        padding-left: 24% !important;
+    }
+
+    .blockLittleHide5{
+        display: none !important;
+    }
+
+    .blockBigHide5{
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:998px) {
+    .mapClass{
+        padding-left: 3% !important;
+    }
+
+    .blockLittleHide5{
+        display: none !important;
+    }
+
+    .blockBigHide5{
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:533px) and (max-width:549px) {
+    .mapClass{
+        margin-left: -20% !important;
+    }
+
+    .blockLittleHide5{
+        display: none !important;
+    }
+
+    .blockBigHide5{
+        display: block !important;
+    }
+}
+
+
+
+
+
+

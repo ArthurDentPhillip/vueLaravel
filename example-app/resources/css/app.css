@@ -1,0 +1,141 @@
+.phoneBlockLeft{
+    background-color: #2A254B;
+    margin-right: -2%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.text{
+    color:aliceblue;
+    font-family: serif;
+}
+
+.textTop{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 35px !important;
+}
+
+.textBot{
+    margin-top: 45%;
+    font-size: 16px !important;
+}
+.btnColor{
+    background-color: #4a4a85 !important;
+    color: white !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+img{
+    height: 600px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.btn{
+    width: 250px !important;
+    height: 40px !important;
+}
+
+.minPic{
+    width: 40px !important;
+    height: 40px !important;
+    margin-bottom: 1%;
+}
+
+.normPic{
+    width: 300px !important;
+    height: 400px !important;
+    margin-bottom: 1%;
+    object-fit: cover;
+}
+
+.innerBlock{
+    background-color:#F9F9F9 !important;
+    padding: 3% !important;
+}
+
+.outerBlock{
+    background-color:rgb(255, 255, 255) !important;
+    padding: 3% !important;
+}
+
+.footerClass{
+    background-color: #2A254B;
+    padding-top: 3% !important;
+    
+}
+
+.linkFooter{
+    display: block;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 200 !important;
+}
+
+.footerLine{
+    color: #4E4D93;
+    margin-top: 1% !important;
+}
+
+.regInput{
+    width: 300px !important;
+    height: 50px !important;
+    background-color: #F9F9F9 !important;
+    padding-left: 4% !important;
+    border: none !important;
+}
+
+.regInput2{
+    width: 400px !important;
+    height: 50px !important;
+    background-color: #4E4D93 !important;
+    padding-left: 4% !important;
+    border: none !important;
+}
+
+.regInput::placeholder {
+    color: #cecae2 !important;
+}
+
+.regInput2::placeholder {
+    color: #ffffff !important;
+}
+
+.signUp{
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    background-color: #2A254B !important;
+    color: #FFFFFF !important;
+    margin-left: -12% !important;
+}
+
+.signUp2{
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    background-color: #ffffff !important;
+    color: #2A254B !important;
+    margin-left: -13% !important;
+}
+
+.btnTouch{
+    background-color: #F9F9F9 !important;
+    width: 130px !important;
+    height: 50px !important;
+    border-radius: 0 0 0 0!important;
+    color: #2A254B !important;
+    margin-top: 45% !important;
+}
+
+body{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 500 !important;
+    background-color: rgb(255, 255, 255) !important;
+    overflow-x: hidden !important;
+}
+
+main{
+    margin-bottom: -20% !important;
+}

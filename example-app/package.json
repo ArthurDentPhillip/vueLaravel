@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite watch",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0",
+        "vue": "^3.2.37"
+    },
+    "dependencies": {
+        "@2gis/mapgl": "^1.42.0",
+        "@babel/plugin-syntax-top-level-await": "^7.14.5",
+        "2gis-maps": "^3.7.3",
+        "bootstrap-icons": "^1.11.1",
+        "npm-watch": "^0.11.0",
+        "vue-yandex-maps": "^0.11.18"
+    }
+}
